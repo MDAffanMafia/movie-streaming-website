@@ -1,0 +1,50 @@
+
+body{
+    background-color: black;
+  }
+  .jumbotron-fluid{
+    background-color: black;
+    color: #e2dd31;
+    margin-left: 2%;
+    margin-right: 2%;
+    height: 150vh;
+  
+  }
+  .jumbotron-fluid h1:hover{
+    color: white;
+  }
+  .jumbotron-fluid h4:hover{
+    color:white;
+  }
+  
+  .jumbotron-fluid h5{
+    color:white;
+  }
+  .container video{
+    margin-left: 2%;
+    border:10px solid white;
+  }
+  
+  .page-footer{
+    background-color: black;
+    color: white;
+  }
+  #home{
+    color: orange;
+    margin:20px;
+    border:1px solid orange;
+    background-color:white;
+    border-radius: 5px ;
+    padding:10px;
+    font-size: 20px ;
+    height: 50px;
+  }
+   #home:hover{
+    color: white;
+    margin-top:20px;
+    display:inline-block;
+    border-bottom: 10px solid orange;
+    text-decoration: none;
+    background-color:orange;
+    height: 50px;
+  }
