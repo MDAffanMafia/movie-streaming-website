@@ -12,7 +12,7 @@
    <header>
      <div class="container-fluid">
        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-           <a href="login.php" class="navbar-brand"> <img src="images/logo.png" alt=""> </a>
+           <a href="login.php" class="navbar-brand"> <img src="imgfile/logo.png" alt=""> </a>
            <span class="navbar-text">selfporomo movie hub</span>
 
            <ul class="navbar-nav">

@@ -20,7 +20,7 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true)
    <header>
      <div class="container-fluid">
        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-           <a href="homepage.php" class="navbar-brand"> <img src="images/logo.png" alt=""> </a>
+           <a href="homepage.php" class="navbar-brand"> <img src="imgfile/logo.png" alt=""> </a>
            <span class="navbar-text">selfpromoMovie HUB</span>
 
            <ul class="navbar-nav">
