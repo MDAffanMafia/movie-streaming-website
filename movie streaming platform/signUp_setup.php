@@ -5,7 +5,7 @@ include 'database_connectivity.php';
 
 $fname=strtolower($_POST['fname']);
 $lname=strtolower($_POST['lname']);
-$username=$fname."".$lname;
+$username=$fname." ".$lname;
 $contact=$_POST['phn'];
 $email=$_POST['mail'];
 $pass=$_POST['pass'];
