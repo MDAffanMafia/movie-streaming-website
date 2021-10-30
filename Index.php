@@ -8,7 +8,7 @@ session_start();
   <head>
     <meta charset="utf-8">
     <title>selfporomo Movie HUB</title>
-    <link rel="stylesheet" href="user-login.css" type="text/css">
+    <link rel="stylesheet" href="static/user-login.css" type="text/css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
   </head>
@@ -23,18 +23,18 @@ session_start();
               <li class="nav-item"> <a href="signUp.php" class="nav-link"> SignUp</a> </li>
 
             </ul>
+
         </nav>
 
         <div class="container">
 
           <div class="jumbotron">
-            <h1>Login to your account</h1> <br>
+            <h1>Login</h1> <br>
             <form class="" action="login_Setup.php" method="POST"> <br><br>
-              <input type="text" class="form-control" placeholder="Usename" name="username" value="">
+              <input type="text" class="form-control" placeholder="Username" name="username" value="">
               <br>
               <input type="password" class="form-control" placeholder="Password" name="pass" value="">
               <br><br>
-
               <div class="loginbutton">
                 <button type="submit" class="btn btn-success btn-lg" name="login">Login</button>
 
@@ -51,7 +51,7 @@ session_start();
   <footer class="page-footer font-small blue">
 
     <div class="footer-copyright text-center py-3">
-      <a href="">selfporomo.org(private limited)</a>
+      <a href="">selfporomo.org(Private limited)</a>
     </div>
 
   </footer>

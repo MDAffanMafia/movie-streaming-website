@@ -16,7 +16,7 @@ echo"<!DOCTYPE html>";
     echo"<head>";
       echo"<meta charset='utf-8'>";
       echo"<title>search</title>";
-      echo"<link rel='stylesheet' href='ferch_usesr.css'>";
+      echo"<link rel='stylesheet' href='static/ferch_usesr.css'>";
       echo"<link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css' integrity='sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO' crossorigin='anonymous'>";
     echo"</head>";
     echo"<body style='background-color:black';>";

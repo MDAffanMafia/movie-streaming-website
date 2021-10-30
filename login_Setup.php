@@ -13,6 +13,7 @@ $row =mysqli_num_rows($result);
 if(!$row = $result->fetch_assoc()) {
     echo "incorrect username or password";
   }else {
+	echo "loged In";
     session_start();
     $_SESSION['loggedin']=true;
     $id=$row['Id'];
