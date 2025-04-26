@@ -37,7 +37,8 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true)
            <h1> Upload Movie</h1>
            <p> <b></b> </p> <br>
 
-           <form class="" action="upload_movie.php" method="POST" >
+           <form class="" action="upload_movie.php" method="POST" enctype="multipart/form-data">
+>
 
             <input type="text" class="form-control" placeholder="Movie Name" name="movie_name" value=""><br>
              <br>
